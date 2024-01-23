@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Démo 2.1 - les sélecteurs CSS</title>
+	<style>
+		p {
+			color: blue;
+			background-color: lightblue;
+		}
+		.couleur-mauve {
+			color: purple;
+		}
+		.test-paragraphe, .couleur-mauve {
+			border: 2px solid purple;
+		}
+		#premier-paragraphe {
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p id="premier-paragraphe" class="test-paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut <span class="couleur-mauve">labore et dolore</span> magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<p>Lorem ipsum dolor <span>sit amet</span>, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<p class="test-paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<p class="test-paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+</body>
+</html>

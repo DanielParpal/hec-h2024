@@ -1,0 +1,13 @@
+p {
+	color: darkcyan;
+	background-color: lightblue;
+}
+.couleur-mauve {
+	color: purple;
+}
+.test-paragraphe, .couleur-mauve {
+	border: 2px solid purple;
+}
+#premier-paragraphe {
+	font-size: 1.5em;
+}
