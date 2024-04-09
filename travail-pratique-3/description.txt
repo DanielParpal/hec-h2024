@@ -1,0 +1,25 @@
+================================================================================
+
+TP3 - Bloc 3 (PHP et MySQL)
+
+Notation: 
+- Les points sont alloués selon les fonctionnalités développées. En d'autres termes, il n'y a pas de points donnés pour l'écriture de code si celui-ci n'offre aucune fonctionnalité. Des points peuvent être enlevés pour le non-respect des meilleures pratiques que nous avons présentées.
+
+Contexte : Suite à une étude de marché, vous avez remarqué qu'il existe une opportunité pour la vente de crèmes glacées artisanales haut de gamme. Vous vous êtes donc lancés sur cette opportunité, et après quelques mois d'opérations, vous voulez étudier la popularité de vos glaces en fonction de la saveur.
+
+Dans le TP3, vous développerez une mini-application permettant d'afficher les données de vente.
+
+Vous écrirez, dans le fichier index.php, les lignes de code permettant de:
+- Créer la connexion vers la base de données
+- Sélectionner les données dans la table de ventes de crème glacée
+- Générer l'affichage de la table dynamiquement
+
+Le fichier index.php doit se servir des fichiers existants (et écrits pour vous), et uniquement contenir des commandes d'inclusion (include).
+
+Pour la remise : Vous devez compresser votre dossier de travail et le remettre en format .zip sur ZoneCours.
+
+Utilisez le script d'initialisation pour mettre en place la table 'ventes_cremes_glacees' dans PHPMyAdmin. 
+
+Note aux utilisateurs PC : n'oubliez pas de changer le mot de passe pour une chaîne de caractères vide ('') dans votre script de connexion.
+
+================================================================================
