@@ -12,9 +12,6 @@
         <div class="row justify-content-center">
             <div class="col-8">
                 
-                <!-- Le formulaire permettant d'ajouter à notre table -->
-                <?php include'formulaire.html.php'; ?>
-                <hr>
                 <!-- La table des données -->
                 <?php include'table.html.php'; ?>
                 
