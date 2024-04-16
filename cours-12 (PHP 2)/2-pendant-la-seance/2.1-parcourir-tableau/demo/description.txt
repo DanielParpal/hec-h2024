@@ -64,5 +64,13 @@ Note : pour l'instant, une liste HTML fonctionne bien, car nous affichons seulem
 ================================================================================
 
 Notes supplémentaires : 
+
+Ceci est une solution valable:
+
+	<?php 
+	foreach ($titres as $titre) {
+		echo '<li class="list-group-item">' . $titre . '</li>';
+	}
+	?>
     
 ================================================================================
